@@ -1,0 +1,109 @@
+@import "variable";
+
+.sport_app_article__navigation--list {
+  @include reset-list;
+  padding-right: $nav-padding-right;
+  padding-bottom: $mobile-padding-bottom;
+}
+
+.image {
+  @include default-max-width;
+}
+.sport_app_container__get_started--list_wrapper svg{
+  fill: #00ADEE;
+}
+.sport_app_article__navigation__list--apple__store {
+  padding-inline-end: $nav-padding-right;
+}
+
+.sport_app_feature__header {
+color: $header-color;
+font-size: 28px;
+}
+
+.sport_app_feature__list_navigation {
+  display: flex;
+  flex-direction: column;
+  padding-block-start: 63px;
+  padding-block-end: 73px;
+}
+
+.sport_up_feature__list_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.sport_app_feature__list {
+  padding-inline-end: 52px;
+  display: flex;
+}
+
+.sport_app_feature__list_navigation:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(min-width: 1114px) {
+  .sport_app_main_container__get_started {
+    background-color: #00ADEE;
+    padding-block-start: 74px;
+    padding-block-end: 66px;
+  }
+
+  .sport_app_article__navigation--list {
+    padding-bottom: $desktop-padding-bottom;
+  }
+  .sport_app_article__navigation--list {
+    @include reset-list;
+  }
+
+  .sport_app_feature {
+    background-color: #FAFAFA;
+    padding-block-start: 57px;
+  }
+
+  .sport_app_feature__list_navigation:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sport_app_footer__social_media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .sport_app_container__get_started--list_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: auto;
+    margin-bottom: auto;
+    max-width: 1114px;
+  }
+
+  .logo_sport_white {
+    padding-block-end: 49px;
+  }
+
+  .sport_app_footer__social_media > .sport_app_footer__social_media__list_wrapper {
+    order: 1;
+  }
+
+  .sport_app_container__get_started--list_wrapper svg{
+    fill: #FFFFFF;
+  }
+
+  .list_paragraph {
+    color: #FFFFFF;
+    max-width: 194px;
+    text-align: left;
+  }
+
+  .icon_link {
+    display: flex;
+  }
+
+}

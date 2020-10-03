@@ -1,0 +1,18 @@
+@import "variable";
+@font-face {
+    font-family: $font-stack;
+    src: local('Lato Regular'), local('${filename-regular'), local('Lato-Regular'),
+        url('${filename-regular}.${extension}') format('${extension}'),
+        url('${filename-regular}.${extension}') format('${extension}');
+    font-weight: $regular-weight;
+}
+
+@font-face {
+    font-family: $font-stack;
+    src: local('Lato Bold'), local('${filename-bold}'), local('${filename-bold}'),
+        url('${filename-bold}.${extension}') format('${extension}'),
+        url('${filename-bold.${extension}') format('${extension');
+    font-weight: $bold-weight;
+}
+
+

@@ -1,0 +1,32 @@
+.sport_app_footer {
+  background-color: #00ADEE;
+  padding-inline-start: 21px;
+  padding-inline-end: 20px;
+  padding-block-start: 43px;
+  padding-block-end: 46px; }
+
+.sport_app_footer__social_media__list_wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: row;
+  padding-inline-start: 0; }
+
+.sport_app_footer__social_media__list {
+  padding-block-end: 34px;
+  padding-inline-end: 17px; }
+
+.sport_app_footer__communication__list_wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: row;
+  padding-inline-start: 0; }
+
+.sport_app_footer__communication__list {
+  padding-inline-end: 19px; }
+
+.communication_link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF; }

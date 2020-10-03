@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Regular"), local("lato-regular"), local("Lato-Regular"),
+      url("Lato-Regular.woff2") format("woff2"),
+      url("lato-regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Bold"), local("lato-bold"), local("lato-bold"),
+      url("lato-bold.woff2") format("woff2"),
+      url("lato-bold.woff") format("woff");
+  font-weight: 700;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  background-color: #F4F6F9;
+}
+
+@media (min-width: 1200px) {
+  .sport_app_header {
+    background-image: url("../img/bg_header.png");
+    background-repeat: no-repeat;
+    background-position: 523px -130px;
+    background-size: 700px;
+    margin-left: auto;
+    margin-bottom: auto;
+    max-width: 1114px;
+  }
+}
+
+/* Mobile style */
+.sport_app_header__title {
+  background-image: url("../img/logo_sports_colour.svg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+
+.sport_app_header__title--link {
+  color: transparent;
+}
+
+/* Desktop style */
+@media (min-width: 1200px) {
+  .sport_app_header__title {
+    background-image: url("../img/logo_sports_colour.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+  }
+}
+
+.sport_app_article__navigation__list--apple__store {
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.sport_app_article__title {
+  color: #333333;
+}
+
+.sport_app_article__description {
+  color: #4F4F4F;
+}
+
+@media (min-width: 1200px) {
+  .sport_app_article {
+    padding-top: 50px;
+    text-align: start;
+    max-width: 557px;
+  }
+  .sport_app_article__title {
+    font-size: 36px;
+    text-align: start;
+  }
+  .sport_app_article__description {
+    font-size: 18px;
+    text-align: start;
+  }
+}
+
+/* Mobile style */
+.sport_app_article {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sport_app_article__title {
+  line-height: 1.75;
+  font-size: 36px;
+}
+
+.sport_app_article__description {
+  line-height: 26px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}

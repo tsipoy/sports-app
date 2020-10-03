@@ -1,0 +1,30 @@
+$header-color: #333333;
+$description-color: #4F4F4F;
+$base-color: #F4F6F9;
+
+$font-stack: 'Lato';
+$filename-regular: 'lato-bold';
+$filename-regular: 'lato-regular';
+$desciption-font-size: 16px;
+$path: '../webroot/fonts';
+$extension: 'woff', 'woff2';
+$bold-weight: 700;
+$regular-weight: 400;
+$text-align: center;
+
+$nav-padding-right: 20px;
+$mobile-padding-bottom: 59px;
+$desktop-padding-bottom: 169px;
+
+
+@mixin reset-list {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: row;
+  padding-inline-start: 0;
+}
+
+@mixin default-max-width {
+  max-width: 100%;
+}

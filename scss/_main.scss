@@ -1,0 +1,95 @@
+@import "variable";
+.sport_app_main_container {
+  background-color: #FFFFFF;
+  text-align: $text-align;
+  margin-block-start: -20px;
+}
+
+.sport_app_main_container__article--header {
+  font-size: 28px;
+  line-height: 37px;
+  color: $header-color;
+}
+
+.sport_app_main_container__article--description {
+  font-size: $desciption-font-size;
+  line-height: 23px;
+  color: $description-color;
+}
+
+.sport_app_main_container__header {
+  text-align: $text-align;
+}
+.header_link {
+  color: #00ADEE;
+  text-transform: uppercase;
+  line-height: 21px;
+  font-size: $desciption-font-size;
+}
+
+.learn_more {
+  font-size: $desciption-font-size;
+  line-height: 21px;
+  color: #00ADEE;
+}
+
+.sport_app_main_container__get_started--header {
+  color: $header-color;
+  font-size: 28px;
+  line-height: 37px;
+}
+
+.sport_app_container__get_started--list {
+  padding-block-start: 57px;
+  padding-block-end: $desciption-font-size;
+  font-size: $desciption-font-size;
+  line-height: 23px;
+  color: $description-color;
+}
+
+
+.sport_app_main_container__article {
+  background-image: url(../img/bg_friendly_user_interface.png);
+  background-repeat: no-repeat;
+  background-position-y: 37%;
+  background-position-x: 50%;
+  padding-block-end: 700px;
+}
+
+@media(min-width: 1114px) {
+  .sport_app_main_container__article {
+    background-image: url(../img/bg_friendly_user_interface.png);
+    background-repeat: no-repeat;
+    background-position: calc(-219px - 11px);
+    padding-block-end: 0;
+    text-align: start;
+    margin-left: auto;
+    margin-bottom: auto;
+    max-width: 1114px;
+  }
+
+  .sport_app_main_container__get_started--header {
+    color: #ffffff;
+  }
+
+  .sport_app_main_container__header--title {
+    padding-block-start: 167px;
+  }
+
+  .sport_app_main_container__article--header {
+    padding-block-end: 27px;
+    padding-block-start: 27px;
+  }
+
+  .sport_app_main_container__article--description {
+    font-size: 16px;
+    line-height: 23px;
+    color: #4F4F4F;
+    max-width: 390px;
+  }
+
+  .sport_app_main_container__learn_more {
+    padding-block-start: 54px;
+    padding-block-end: 171px;
+  }
+}
