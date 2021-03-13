@@ -1,11 +1,17 @@
 @import "variable";
+
+body {
+  margin: 0;
+  background-color: $base-color;
+}
+
 html {
   font-family: $font-stack, sans-serif;
-  background-color: $base-color;
 }
 
 ul {
   list-style: none;
+  padding-inline-start: 0;
 }
 
 a {

@@ -1,23 +1,35 @@
 /* Mobile style */
 
-.sport_app_header__title {
-  background-image: url('../img/logo_sports_colour.svg');
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: contain;
+// .sport_app_header__title {
+//   background-image: url('../img/logo_sports_colour.svg');
+//   background-repeat: no-repeat;
+//   background-position: 50%;
+//   background-size: contain;
+// }
+
+.sport_app_article {
+  padding-inline-end: 22px;
+  padding-inline-start: 18px;
 }
 
 .sport_app_header__title--link {
-  color: transparent;
+  text-align: center;
 }
+
+// .sport_app_header__title--link {
+//   color: transparent;
+// }
 
 /* Desktop style */
 @media(min-width: 1114px) {
-  .sport_app_header__title {
-    background-image: url('../img/logo_sports_colour.svg');
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: auto;
-  }
+  // .sport_app_header__title {
+  //   background-image: url('../img/logo_sports_colour.svg');
+  //   background-repeat: no-repeat;
+  //   background-position: left;
+  //   background-size: auto;
+  // }
+  // .sport_app_header__title--link {
+  //   text-align: start;
+  // }
 }
 
