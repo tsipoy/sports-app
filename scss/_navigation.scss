@@ -67,8 +67,9 @@ font-size: 28px;
   .sport_app_feature__list_navigation:last-child {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    padding-inline-start: 70px;
   }
 
   .sport_app_footer__social_media {
@@ -99,7 +100,7 @@ font-size: 28px;
 
   .list_paragraph {
     color: #FFFFFF;
-    max-width: 194px;
+    max-width: 312px;
     text-align: left;
   }
 

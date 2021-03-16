@@ -1,8 +1,20 @@
 @import "variable";
+
+.sport_app_article {
+  padding-inline-end: 22px;
+  padding-inline-start: 18px;
+}
+
 .sport_app_article__title {
   color: $header-color;
   font-size: 30px;
 }
+
+
+.sport_app_header__title--link {
+  text-align: center;
+}
+
 
 .sport_app_article__description {
   color: $description-color;
@@ -14,6 +26,7 @@
   .sport_app_article {
     padding-top: 50px;
     text-align: start;
+    margin-inline-start: -100px;
   }
 
   .sport_app_article__title {
@@ -30,7 +43,7 @@
 
 /* Mobile style */
 .sport_app_article {
-  text-align: center;
+  text-align: start;
   padding-top: 50px;
 }
 
